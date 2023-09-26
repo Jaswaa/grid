@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.avengers{
+    width: 300px;
+    height: 200px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-row-gap: 100px;
+    grid-column-gap: 300px;
+    justify-content: center;
+}
